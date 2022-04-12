@@ -1,0 +1,7 @@
+book_filename: "Olympics_Data_Research"
+output_dir: docs
+delete_merged_file: true
+new_session: false
+edit: https://github.com/alecng27/Olympics_Data_Research/edit/master/%s
+view: https://github.com/alecng27/Olympics_Data_Research/blob/master/%s
+history: https://github.com/alecng27/Olympics_Data_Research/commits/master/%s

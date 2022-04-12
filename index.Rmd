@@ -1,0 +1,20 @@
+--- 
+title: "Olympics Data Research Project"
+author: "Alec Nguyen"
+site: bookdown::bookdown_site
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+---
+
+# Does Wining An Olympic Medal Increase Fertility?
+
+The ancient Olympic Games were hosted in Olympia, Greece between 776 BC and 393 AD. The first modern Olympics were held in Athens, Greece in 1896. All of the Games starting from Athens in 1896 to Beijing 2022 are referred to as the “Modern Olympics”^[https://www.penn.museum/sites/olympics/olympicorigins.shtml].
+
+Olympic athletes are always at the forefront to push the human limits. The athletes are a great symbol of pride and inspiration for the countries they represent and compete for.
+The aim of this project is to explore whether winning at the Olympics influence fertility within those countries. 
+
+Specifically, the main question is: Does a country that perform significantly better in the Olympics, meaning they if they obtain medals, experience an observed increase in birthrate?
+
+
+

@@ -1,8 +1,5 @@
----
-title: "Does Wining An Olympic Medal Increase Fertility?"
-author: "Alec Nguyen"
-output: html_document
----
+
+# Research
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE, fig.height = 4, fig.width = 6 )
@@ -89,12 +86,6 @@ Birth <- Main_Data_countrylist %>%
 # write_csv(Birth, "Birth_Data.csv")
 ```
 
-The ancient Olympic Games were hosted in Olympia, Greece between 776 BC and 393 AD. The first modern Olympics were held in Athens, Greece in 1896. All of the Games starting from Athens in 1896 to Beijing 2022 are referred to as the “Modern Olympics”^[https://www.penn.museum/sites/olympics/olympicorigins.shtml].
-
-Olympic athletes are always at the forefront to push the human limits. The athletes are a great symbol of pride and inspiration for the countries they represent and compete for.
-The aim of this project is to explore whether winning at the Olympics influence fertility within those countries. 
-
-Specifically, the main question is: Does a country that perform significantly better in the Olympics, meaning they if they obtain medals, experience an observed increase in birthrate?
 
 The findings from this question may reveal what society values. Will there be a national increase in patriotism that leads to more births from a performs well in the Olympics? 
 Do people place value in the performance of their respective countries in the Games that it will influence the when to have children?
@@ -103,7 +94,7 @@ This is a very interesting topic to investigate that has relevance to countries 
 
 Kaggle^[https://www.kaggle.com/heesoo37/olympic-history-data-a-thorough-analysis/data] provides comprehensive and detailed datasets containing Olympics-related statistics from 1896 and 2016. Our World In Data^[https://ourworldindata.org/grapher/annual-number-of-births-by-world-region?time=earliest..latest], on the other hand, provides a detailed birth numbers of all countries between 1950 and 2020. 
 
-## Data Wrangling
+# Data Wrangling
 
 No Olympic Games were held between WWI and WWII, which corresponds to 1912-1920 and 1936-1948. 
 
@@ -111,9 +102,11 @@ To preserve the integrity of the Olympic dataset, the project will only process 
 
 The birth number and birth rate, as dependent variables, will be processed and analyze starting from 1950 to 2018, which is a 2-year deviation to consider the effect of influence that the independent variable, medal count, has on the birth rate. 
 
-## Analysis
+# Analysis
 
 To be able to observe and identify any trend or pattern of wining Olympic medals have on birth rates, countries with most medals won between 1952 and 2016 must first be identified. 
+
+## Figure 1
 
 ```{r, fig.height = 4, fig.width = 8}
 # Read in dataset
@@ -161,6 +154,8 @@ In Figure 1, the fifteen countries, from top (United States) to bottom (Netherla
 From observing the list, most countries are classified as developed or first-world countries. This suggests a strong economic power that goes into creating and training Olympic-medal-winning athletes. 
 
 This figure alone couldn’t display much about the influence of medals have on the birth rates of those countries, but by identifying the top 15 countries with most medals, examining the medal count and birth rate changes over the years would display the said influence. This leads to Figure 2 and Figure 3.
+
+## Figure 2
 
 ```{r}
 # Reason I'm reading in birth data is due to the lack of continuous years in the main dataset since olympics happens once every 2/4 years. Birth data contains continuous years of birth numbers
@@ -214,6 +209,8 @@ Note: Figure 2 only displays the Summer Games medal count due to the nature of t
 
 Figure 2 display the number of medals won through the years of the top 15 countries identified above. For example, in 1956, the United States won 123 medals in total and in 2012, the US won 248 medals.
 
+## Figure 3
+
 ```{r}
 # Plot
 ggplot(top15_birthcount, aes(Year, birth_pct_change)) +
@@ -240,6 +237,8 @@ Russia also displaying the same pattern between 1965 and 1980. As Russia’s med
 Although the trends observed are suggesting a positive correlation between the Olympic medal and birth rate, this doesn’t suggest any kind of direct causality of number of medals won to the birth rate fluctuations. This visualization of data didn't take into control any of the external variables and/or possible influencing elements.
 
 A prime example of this is the pattern displayed by South Korea, a country listed in the top 15 most medals won countries. Although the medal count is not as high as the top 3 countries, SK still has an increase in amount of medals won through the time period. Despite the rise in medals won, the country’s birth rate displayed a sharp decline from 10.99% in 1952 down to 3.09% in 2018.
+
+## Tables
 
 ```{r}
 Birth_data3 <- read_csv("Birth_Data.csv")
@@ -311,9 +310,22 @@ A peculiar observation to note is that the birth rate change of top 15 countries
 
 A possible reasoning for this is the populations belonging to the already developed countries are having less sex, which leads to lowering of youth population. In contrast to the developing countries, the populations, while experiencing the increase in quality of life from economic developments, are more willing to reproduce and birth more children^[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255510/].
 
-## Conclusion
+# Conclusion
 
 Overall, some positive patterns between medals won and birth rate were observed in the top 15 countries, but contradicting patterns were observed as well. 
 
 Although there were many limitations that prohibits this project from making any solid conclusion, it opened doors to future projects on the possible variables that influenced the change in medal count such as migration of athletes and war on birth rate. 
 
+# Author
+
+Alec Nguyen
+
+Economics, Lawrence University
+
+alec.nguyen27@gmail.com
+
+[LinkedIn](https://www.linkedin.com/in/alec-nguyen-about/)
+
+[Portfolio](https://alecng27.github.io/Portfolio/)
+
+[Merit Page](https://meritpages.com/Alec_Nguyen)

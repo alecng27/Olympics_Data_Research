@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Olympics Data Research Project</title>
+  <meta name="description" content="Olympics Data Research Project" />
+  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Olympics Data Research Project" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Olympics Data Research Project" />
+  
+  
+  
+
+<meta name="author" content="Alec Nguyen" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+
+
+<script src="libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path=""><a href="#about"><i class="fa fa-check"></i>About</a></li>
+<li class="chapter" data-level="1" data-path=""><a href="#research-paper"><i class="fa fa-check"></i><b>1</b> Research Paper</a></li>
+<li class="chapter" data-level="2" data-path=""><a href="#does-wining-an-olympic-medal-increase-fertility"><i class="fa fa-check"></i><b>2</b> Does Wining An Olympic Medal Increase Fertility?</a></li>
+<li class="chapter" data-level="3" data-path=""><a href="#data-wrangling"><i class="fa fa-check"></i><b>3</b> Data Wrangling</a></li>
+<li class="chapter" data-level="4" data-path=""><a href="#analysis"><i class="fa fa-check"></i><b>4</b> Analysis</a></li>
+<li class="chapter" data-level="5" data-path=""><a href="#conclusion"><i class="fa fa-check"></i><b>5</b> Conclusion</a></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Olympics Data Research Project</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="header">
+<h1 class="title">Olympics Data Research Project</h1>
+<p class="author"><em>Alec Nguyen</em></p>
+</div>
+<div id="about" class="section level1 unnumbered">
+<h1>About</h1>
+<p>The American Community Survey (ACS) is a demographics survey program conducted by the U.S. Census Bureau.</p>
+<p>ACS regularly gathers information previously contained only in the long form of the decennial census, such as ancestry, citizenship, educational attainment, income, language proficiency, migration, disability, employment, and housing characteristics. These data are used by many public-sector, private-sector, and not-for-profit stakeholders to allocate funding, track shifting demographics, plan for emergencies, and learn about local communities.</p>
+<p>For this project, I utilized the 2019 ACS data to explore and compare the 2020 US Presidential Election results against the county-level demographic data.</p>
+<p><a href="https://alecng27.github.io/ACS_Panel_Data/" class="uri">https://alecng27.github.io/ACS_Panel_Data/</a></p>
+<p><strong>Contact</strong></p>
+<p>Alec Nguyen</p>
+<p>Economics, Lawrence University</p>
+<p><a href="mailto:alec.nguyen27@gmail.com" class="email">alec.nguyen27@gmail.com</a></p>
+<p><a href="https://www.linkedin.com/in/alec-nguyen-about/">LinkedIn</a></p>
+<p><a href="https://alecng27.github.io/Portfolio/">Portfolio</a></p>
+<p><a href="https://meritpages.com/Alec_Nguyen">Merit Page</a></p>
+
+</div>
+<div id="research-paper" class="section level1" number="1">
+<h1><span class="header-section-number">1</span> Research Paper</h1>
+</div>
+<div id="does-wining-an-olympic-medal-increase-fertility" class="section level1" number="2">
+<h1><span class="header-section-number">2</span> Does Wining An Olympic Medal Increase Fertility?</h1>
+<p><strong>Alec Nguyen</strong></p>
+<p>The ancient Olympic Games were hosted in Olympia, Greece between 776 BC and 393 AD. The first modern Olympics were held in Athens, Greece in 1896. All of the Games starting from Athens in 1896 to Beijing 2022 are referred to as the “Modern Olympics”<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
+<p>Olympic athletes are always at the forefront to push the human limits. The athletes are a great symbol of pride and inspiration for the countries they represent and compete for.
+The aim of this project is to explore whether winning at the Olympics influence fertility within those countries.</p>
+<p>Specifically, the main question is: Does a country that perform significantly better in the Olympics, meaning they if they obtain medals, experience an observed increase in birthrate?</p>
+<p>The findings from this question may reveal what society values. Will there be a national increase in patriotism that leads to more births from a performs well in the Olympics?
+Do people place value in the performance of their respective countries in the Games that it will influence the when to have children?</p>
+<p>This is a very interesting topic to investigate that has relevance to countries with aging population problems such as Japan, Italy, and Germany<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. This might give an insight into whether the countries should bid to host future Olympic Games.</p>
+<p>Kaggle<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> provides comprehensive and detailed datasets containing Olympics-related statistics from 1896 and 2016. Our World In Data<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>, on the other hand, provides a detailed birth numbers of all countries between 1950 and 2020.</p>
+</div>
+<div id="data-wrangling" class="section level1" number="3">
+<h1><span class="header-section-number">3</span> Data Wrangling</h1>
+<p>No Olympic Games were held between WWI and WWII, which corresponds to 1912-1920 and 1936-1948.</p>
+<p>To preserve the integrity of the Olympic dataset, the project will only process and analyze the data starting from 1952 to 2016 for the Olympics-related dataset.</p>
+<p>The birth number and birth rate, as dependent variables, will be processed and analyze starting from 1950 to 2018, which is a 2-year deviation to consider the effect of influence that the independent variable, medal count, has on the birth rate.</p>
+</div>
+<div id="analysis" class="section level1" number="4">
+<h1><span class="header-section-number">4</span> Analysis</h1>
+<p>To be able to observe and identify any trend or pattern of wining Olympic medals have on birth rates, countries with most medals won between 1952 and 2016 must first be identified.</p>
+<p><img src="Olympics_Data_Research_files/figure-html/unnamed-chunk-4-1.png" width="768" /></p>
+<p>In Figure 1, the fifteen countries, from top (United States) to bottom (Netherlands), have won the most medals between 1952 and 2016. The medal count includes both from Summer Games and Winter Games.</p>
+<p>From observing the list, most countries are classified as developed or first-world countries. This suggests a strong economic power that goes into creating and training Olympic-medal-winning athletes.</p>
+<p>This figure alone couldn’t display much about the influence of medals have on the birth rates of those countries, but by identifying the top 15 countries with most medals, examining the medal count and birth rate changes over the years would display the said influence. This leads to Figure 2 and Figure 3.</p>
+<p><img src="Olympics_Data_Research_files/figure-html/unnamed-chunk-5-1.png" width="576" /></p>
+<p>Note: Figure 2 only displays the Summer Games medal count due to the nature of the smaller medal count in Winter Games that would corrupt the trend line of the graphics.</p>
+<p>Figure 2 display the number of medals won through the years of the top 15 countries identified above. For example, in 1956, the United States won 123 medals in total and in 2012, the US won 248 medals.</p>
+<p><img src="Olympics_Data_Research_files/figure-html/unnamed-chunk-6-1.png" width="576" /></p>
+<p>Figure 3 display the birth rate between 1950 and 2018 of the top 15 countries. For example, in 1955, the United States observed a 1.58% increase in amount of babies born compared 1954. France, in 1966, observed a decrease of 0.15% in babies born compared to 1965. The dashed line indicates 0% change in amount of babies born when compared to the previous year, meaning the the amount of babies born is the same as last year. 0% change doesn’t mean that no babies were born in that year.</p>
+<p>Displaying the birth rate change, and not the population, coincides with the aim of this project to understand the numerical influence of winning medals has on the fertility of a country.</p>
+<p>The top 1 most medals won country, United States, observed a sharp rise in medals won between 1972 and 1988, with peak in 1984 at 352 medals won that corresponds to the positive birth rates through the same time period.</p>
+<p>Russia also displaying the same pattern between 1965 and 1980. As Russia’s medal count increases each year and peaked in 1980 at 442 medals, the birth rate sharply recovers from the negatives into the positives.</p>
+<p>Although the trends observed are suggesting a positive correlation between the Olympic medal and birth rate, this doesn’t suggest any kind of direct causality of number of medals won to the birth rate fluctuations. This visualization of data didn’t take into control any of the external variables and/or possible influencing elements.</p>
+<p>A prime example of this is the pattern displayed by South Korea, a country listed in the top 15 most medals won countries. Although the medal count is not as high as the top 3 countries, SK still has an increase in amount of medals won through the time period. Despite the rise in medals won, the country’s birth rate displayed a sharp decline from 10.99% in 1952 down to 3.09% in 2018.</p>
+<pre><code>## 
+## Table 1: All Countries Between 1950-2018
+## =====================================================================
+## Statistic          Min   Median     Max        Mean       St. Dev.   
+## ---------------------------------------------------------------------
+## Birth             1,142  142,803 30,563,425 692,441.200 2,576,547.000
+## Birth Rate Change -9.10%  1.00%    43.70%      0.80%        0.023    
+## ---------------------------------------------------------------------</code></pre>
+<pre><code>## 
+## Table 2: Only Top 15 Medal Winning Countries
+## =======================================================================
+## Statistic          Min   Median     Max         Mean        St. Dev.   
+## -----------------------------------------------------------------------
+## Birth             50,085 720,106 30,563,425 2,337,133.000 5,615,660.000
+## Birth Rate Change -7.70% -0.20%    11.00%      -0.40%         0.021    
+## -----------------------------------------------------------------------</code></pre>
+<pre><code>## 
+## Table 3: Excluding Top 15 Medal Winning Countries
+## =====================================================================
+## Statistic          Min   Median     Max        Mean       St. Dev.   
+## ---------------------------------------------------------------------
+## Birth             1,142  125,914 27,907,631 540,154.900 2,015,501.000
+## Birth Rate Change -9.10%  1.10%    43.70%      0.90%        0.022    
+## ---------------------------------------------------------------------</code></pre>
+<p>Table 1 display the summary statistics of birth and birth rate change of all countries between 1950 and 2018.</p>
+<p>Table 2 display the summary statistics of birth and birth rate change of only top 15 medal winning countries found above.</p>
+<p>Table 3 display the summary statistics of birth and birth rate change of all countries between 1950 and 2018 excluding the top 15 countries.</p>
+<p>Although no conclusion can be derived about the influence of the Olympic medal has on birth rate, overall performance of countries in the top 15 and not in the top 15 can be compared by observing the summary statistics of the birth data.</p>
+<p>Both median and mean birth of top 15 countries are higher than countries outside of the top 15 list. The median amount of children born each year between 1950 and 2018 for top 15 most medals won countries is 594,192 higher than other countries. This effectively raised the median of all countries to 142,803 from 125,914.</p>
+<p>The mean amount of children born each year between 1950 and 2018 for top 15 countries is 1,796,978 higher than other countries. Although China and India are the biggest factor that hasn’t been taken into control as the top 2 countries high highest population increase, it can still be said that the top 15 countries raised the global mean number of children born each year from 540,155 babies to 692,441 babies.</p>
+<p>This can be said that top 15 countries with most medals won contributed to increase in global average of babies born each year. However, this doesn’t mean that the medals are the reason for the increase in the number of babies born each year. A possible different interpretation for this is due to the fact that the top 15 countries have a high level of development, they can produce more babies and consequently, higher chance of creating Olympic-level athletes.</p>
+<p>A peculiar observation to note is that the birth rate change of top 15 countries are at -0.40% and other countries are at 0.90%. This consequently lowered the global birth rate change average from 0.90% to 0.8%. Although this is a small deviation of numerical value, it could be a possibility that the birth numbers of top 15 countries are decreasing slowly compared to the other countries.</p>
+<p>A possible reasoning for this is the populations belonging to the already developed countries are having less sex, which leads to lowering of youth population. In contrast to the developing countries, the populations, while experiencing the increase in quality of life from economic developments, are more willing to reproduce and birth more children<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
+</div>
+<div id="conclusion" class="section level1" number="5">
+<h1><span class="header-section-number">5</span> Conclusion</h1>
+<p>Overall, some positive patterns between medals won and birth rate were observed in the top 15 countries, but contradicting patterns were observed as well.</p>
+<p>Although there were many limitations that prohibits this project from making any solid conclusion, it opened doors to future projects on the possible variables that influenced the change in medal count such as migration of athletes and war on birth rate.</p>
+
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://www.penn.museum/sites/olympics/olympicorigins.shtml" class="uri">https://www.penn.museum/sites/olympics/olympicorigins.shtml</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://www.prb.org/resources/which-country-has-the-oldest-population/" class="uri">https://www.prb.org/resources/which-country-has-the-oldest-population/</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p><a href="https://www.kaggle.com/heesoo37/olympic-history-data-a-thorough-analysis/data" class="uri">https://www.kaggle.com/heesoo37/olympic-history-data-a-thorough-analysis/data</a><a href="#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p><a href="https://ourworldindata.org/grapher/annual-number-of-births-by-world-region?time=earliest" class="uri">https://ourworldindata.org/grapher/annual-number-of-births-by-world-region?time=earliest</a>..latest<a href="#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255510/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255510/</a><a href="#fnref5" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/alecng27/Olympics_Data_Research/edit/master/%s",
+"text": "Edit"
+},
+"history": {
+"link": "https://github.com/alecng27/Olympics_Data_Research/commits/master/%s",
+"text": null
+},
+"view": {
+"link": "https://github.com/alecng27/Olympics_Data_Research/blob/master/%s",
+"text": null
+},
+"download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
+"toc": {
+"collapse": "section"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
