@@ -316,6 +316,8 @@ Overall, some positive patterns between medals won and birth rate were observed 
 
 Although there were many limitations that prohibits this project from making any solid conclusion, it opened doors to future projects on the possible variables that influenced the change in medal count such as migration of athletes and war on birth rate. 
 
+**Project Source Code -** https://github.com/alecng27/Olympics_Data_Research
+
 # Author
 
 Alec Nguyen
