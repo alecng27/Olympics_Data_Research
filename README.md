@@ -9,5 +9,6 @@ Specifically, the main question is: Does a country that perform significantly be
 
 https://alecng27.github.io/Olympics_Data_Research/
 
+See the [LICENSE](LICENSE) file for license rights and limitations.
 
 

@@ -318,6 +318,8 @@ Although there were many limitations that prohibits this project from making any
 
 **Project Source Code -** https://github.com/alecng27/Olympics_Data_Research
 
+See the [LICENSE](LICENSE) file for license rights and limitations.
+
 # Author
 
 Alec Nguyen
