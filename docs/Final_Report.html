@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>2 Research | Olympics Data Research Project</title>
   <meta name="description" content="2 Research | Olympics Data Research Project" />
-  <meta name="generator" content="bookdown 0.24 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.26 and GitBook 2.6.7" />
 
   <meta property="og:title" content="2 Research | Olympics Data Research Project" />
   <meta property="og:type" content="book" />
-  
   
   
   
@@ -32,7 +31,6 @@
   
 <link rel="prev" href="index.html"/>
 
-<script src="libs/header-attrs-2.11/header-attrs.js"></script>
 <script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -50,8 +48,9 @@
 
 
 
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 
@@ -98,37 +97,37 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="research" class="section level1" number="2">
-<h1><span class="header-section-number">2</span> Research</h1>
+<div id="research" class="section level1 hasAnchor" number="2">
+<h1><span class="header-section-number">2</span> Research<a href="Final_Report.html#research" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>The findings from this question may reveal what society values. Will there be a national increase in patriotism that leads to more births from a performs well in the Olympics?
 Do people place value in the performance of their respective countries in the Games that it will influence the when to have children?</p>
-<p>This is a very interesting topic to investigate that has relevance to countries with aging population problems such as Japan, Italy, and Germany<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>. This might give an insight into whether the countries should bid to host future Olympic Games.</p>
-<p>Kaggle<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a> provides comprehensive and detailed datasets containing Olympics-related statistics from 1896 and 2016. Our World In Data<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a>, on the other hand, provides a detailed birth numbers of all countries between 1950 and 2020.</p>
+<p>This is a very interesting topic to investigate that has relevance to countries with aging population problems such as Japan, Italy, and Germany<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>. This might give an insight into whether the countries should bid to host future Olympic Games.</p>
+<p>Kaggle<a href="#fn4" class="footnote-ref" id="fnref4"><sup>4</sup></a> provides comprehensive and detailed datasets containing Olympics-related statistics from 1896 and 2016. Our World In Data<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>, on the other hand, provides a detailed birth numbers of all countries between 1950 and 2020.</p>
 </div>
-<div id="data-wrangling" class="section level1" number="3">
-<h1><span class="header-section-number">3</span> Data Wrangling</h1>
+<div id="data-wrangling" class="section level1 hasAnchor" number="3">
+<h1><span class="header-section-number">3</span> Data Wrangling<a href="Final_Report.html#data-wrangling" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>No Olympic Games were held between WWI and WWII, which corresponds to 1912-1920 and 1936-1948.</p>
 <p>To preserve the integrity of the Olympic dataset, the project will only process and analyze the data starting from 1952 to 2016 for the Olympics-related dataset.</p>
 <p>The birth number and birth rate, as dependent variables, will be processed and analyze starting from 1950 to 2018, which is a 2-year deviation to consider the effect of influence that the independent variable, medal count, has on the birth rate.</p>
 </div>
-<div id="analysis" class="section level1" number="4">
-<h1><span class="header-section-number">4</span> Analysis</h1>
+<div id="analysis" class="section level1 hasAnchor" number="4">
+<h1><span class="header-section-number">4</span> Analysis<a href="Final_Report.html#analysis" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>To be able to observe and identify any trend or pattern of wining Olympic medals have on birth rates, countries with most medals won between 1952 and 2016 must first be identified.</p>
-<div id="figure-1" class="section level2" number="4.1">
-<h2><span class="header-section-number">4.1</span> Figure 1</h2>
+<div id="figure-1" class="section level2 hasAnchor" number="4.1">
+<h2><span class="header-section-number">4.1</span> Figure 1<a href="Final_Report.html#figure-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><img src="Olympics_Data_Research_files/figure-html/unnamed-chunk-4-1.png" width="768" /></p>
 <p>In Figure 1, the fifteen countries, from top (United States) to bottom (Netherlands), have won the most medals between 1952 and 2016. The medal count includes both from Summer Games and Winter Games.</p>
 <p>From observing the list, most countries are classified as developed or first-world countries. This suggests a strong economic power that goes into creating and training Olympic-medal-winning athletes.</p>
 <p>This figure alone couldn’t display much about the influence of medals have on the birth rates of those countries, but by identifying the top 15 countries with most medals, examining the medal count and birth rate changes over the years would display the said influence. This leads to Figure 2 and Figure 3.</p>
 </div>
-<div id="figure-2" class="section level2" number="4.2">
-<h2><span class="header-section-number">4.2</span> Figure 2</h2>
+<div id="figure-2" class="section level2 hasAnchor" number="4.2">
+<h2><span class="header-section-number">4.2</span> Figure 2<a href="Final_Report.html#figure-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><img src="Olympics_Data_Research_files/figure-html/unnamed-chunk-5-1.png" width="576" /></p>
 <p>Note: Figure 2 only displays the Summer Games medal count due to the nature of the smaller medal count in Winter Games that would corrupt the trend line of the graphics.</p>
 <p>Figure 2 display the number of medals won through the years of the top 15 countries identified above. For example, in 1956, the United States won 123 medals in total and in 2012, the US won 248 medals.</p>
 </div>
-<div id="figure-3" class="section level2" number="4.3">
-<h2><span class="header-section-number">4.3</span> Figure 3</h2>
+<div id="figure-3" class="section level2 hasAnchor" number="4.3">
+<h2><span class="header-section-number">4.3</span> Figure 3<a href="Final_Report.html#figure-3" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><img src="Olympics_Data_Research_files/figure-html/unnamed-chunk-6-1.png" width="576" /></p>
 <p>Figure 3 display the birth rate between 1950 and 2018 of the top 15 countries. For example, in 1955, the United States observed a 1.58% increase in amount of babies born compared 1954. France, in 1966, observed a decrease of 0.15% in babies born compared to 1965. The dashed line indicates 0% change in amount of babies born when compared to the previous year, meaning the the amount of babies born is the same as last year. 0% change doesn’t mean that no babies were born in that year.</p>
 <p>Displaying the birth rate change, and not the population, coincides with the aim of this project to understand the numerical influence of winning medals has on the fertility of a country.</p>
@@ -137,8 +136,8 @@ Do people place value in the performance of their respective countries in the Ga
 <p>Although the trends observed are suggesting a positive correlation between the Olympic medal and birth rate, this doesn’t suggest any kind of direct causality of number of medals won to the birth rate fluctuations. This visualization of data didn’t take into control any of the external variables and/or possible influencing elements.</p>
 <p>A prime example of this is the pattern displayed by South Korea, a country listed in the top 15 most medals won countries. Although the medal count is not as high as the top 3 countries, SK still has an increase in amount of medals won through the time period. Despite the rise in medals won, the country’s birth rate displayed a sharp decline from 10.99% in 1952 down to 3.09% in 2018.</p>
 </div>
-<div id="tables" class="section level2" number="4.4">
-<h2><span class="header-section-number">4.4</span> Tables</h2>
+<div id="tables" class="section level2 hasAnchor" number="4.4">
+<h2><span class="header-section-number">4.4</span> Tables<a href="Final_Report.html#tables" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <pre><code>## 
 ## Table 1: All Countries Between 1950-2018
 ## =====================================================================
@@ -171,18 +170,18 @@ Do people place value in the performance of their respective countries in the Ga
 <p>The mean amount of children born each year between 1950 and 2018 for top 15 countries is 1,796,978 higher than other countries. Although China and India are the biggest factor that hasn’t been taken into control as the top 2 countries high highest population increase, it can still be said that the top 15 countries raised the global mean number of children born each year from 540,155 babies to 692,441 babies.</p>
 <p>This can be said that top 15 countries with most medals won contributed to increase in global average of babies born each year. However, this doesn’t mean that the medals are the reason for the increase in the number of babies born each year. A possible different interpretation for this is due to the fact that the top 15 countries have a high level of development, they can produce more babies and consequently, higher chance of creating Olympic-level athletes.</p>
 <p>A peculiar observation to note is that the birth rate change of top 15 countries are at -0.40% and other countries are at 0.90%. This consequently lowered the global birth rate change average from 0.90% to 0.8%. Although this is a small deviation of numerical value, it could be a possibility that the birth numbers of top 15 countries are decreasing slowly compared to the other countries.</p>
-<p>A possible reasoning for this is the populations belonging to the already developed countries are having less sex, which leads to lowering of youth population. In contrast to the developing countries, the populations, while experiencing the increase in quality of life from economic developments, are more willing to reproduce and birth more children<a href="#fn5" class="footnote-ref" id="fnref5"><sup>5</sup></a>.</p>
+<p>A possible reasoning for this is the populations belonging to the already developed countries are having less sex, which leads to lowering of youth population. In contrast to the developing countries, the populations, while experiencing the increase in quality of life from economic developments, are more willing to reproduce and birth more children<a href="#fn6" class="footnote-ref" id="fnref6"><sup>6</sup></a>.</p>
 </div>
 </div>
-<div id="conclusion" class="section level1" number="5">
-<h1><span class="header-section-number">5</span> Conclusion</h1>
+<div id="conclusion" class="section level1 hasAnchor" number="5">
+<h1><span class="header-section-number">5</span> Conclusion<a href="Final_Report.html#conclusion" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Overall, some positive patterns between medals won and birth rate were observed in the top 15 countries, but contradicting patterns were observed as well.</p>
 <p>Although there were many limitations that prohibits this project from making any solid conclusion, it opened doors to future projects on the possible variables that influenced the change in medal count such as migration of athletes and war on birth rate.</p>
 <p><strong>Project Source Code -</strong> <a href="https://github.com/alecng27/Olympics_Data_Research" class="uri">https://github.com/alecng27/Olympics_Data_Research</a></p>
 <p>See the <a href="https://github.com/alecng27/Olympics_Data_Research/blob/main/LICENSE">LICENSE</a> file for license rights and limitations.</p>
 </div>
-<div id="author" class="section level1" number="6">
-<h1><span class="header-section-number">6</span> Author</h1>
+<div id="author" class="section level1 hasAnchor" number="6">
+<h1><span class="header-section-number">6</span> Author<a href="Final_Report.html#author" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>Alec Nguyen</p>
 <p>Economics &amp; Data Science B.A, Lawrence University</p>
 <p><a href="mailto:alec.nguyen27@gmail.com" class="email">alec.nguyen27@gmail.com</a></p>
@@ -200,13 +199,14 @@ Do people place value in the performance of their respective countries in the Ga
 
 
 
+
 <div class="footnotes">
 <hr />
-<ol start="2">
-<li id="fn2"><p><a href="https://www.prb.org/resources/which-country-has-the-oldest-population/" class="uri">https://www.prb.org/resources/which-country-has-the-oldest-population/</a><a href="Final_Report.html#fnref2" class="footnote-back">↩︎</a></p></li>
-<li id="fn3"><p><a href="https://www.kaggle.com/heesoo37/olympic-history-data-a-thorough-analysis/data" class="uri">https://www.kaggle.com/heesoo37/olympic-history-data-a-thorough-analysis/data</a><a href="Final_Report.html#fnref3" class="footnote-back">↩︎</a></p></li>
-<li id="fn4"><p><a href="https://ourworldindata.org/grapher/annual-number-of-births-by-world-region?time=earliest" class="uri">https://ourworldindata.org/grapher/annual-number-of-births-by-world-region?time=earliest</a>..latest<a href="Final_Report.html#fnref4" class="footnote-back">↩︎</a></p></li>
-<li id="fn5"><p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255510/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255510/</a><a href="Final_Report.html#fnref5" class="footnote-back">↩︎</a></p></li>
+<ol start="3">
+<li id="fn3"><p><a href="https://www.prb.org/resources/which-country-has-the-oldest-population/" class="uri">https://www.prb.org/resources/which-country-has-the-oldest-population/</a><a href="Final_Report.html#fnref3" class="footnote-back">↩︎</a></p></li>
+<li id="fn4"><p><a href="https://www.kaggle.com/heesoo37/olympic-history-data-a-thorough-analysis/data" class="uri">https://www.kaggle.com/heesoo37/olympic-history-data-a-thorough-analysis/data</a><a href="Final_Report.html#fnref4" class="footnote-back">↩︎</a></p></li>
+<li id="fn5"><p><a href="https://ourworldindata.org/grapher/annual-number-of-births-by-world-region?time=earliest" class="uri">https://ourworldindata.org/grapher/annual-number-of-births-by-world-region?time=earliest</a>..latest<a href="Final_Report.html#fnref5" class="footnote-back">↩︎</a></p></li>
+<li id="fn6"><p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255510/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4255510/</a><a href="Final_Report.html#fnref6" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
             </section>
